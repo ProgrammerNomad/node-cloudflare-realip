@@ -1,0 +1,7 @@
+reference/
+test/
+.git/
+.gitignore
+.travis.yml
+*.log
+node_modules/

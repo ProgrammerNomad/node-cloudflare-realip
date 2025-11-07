@@ -1,0 +1,52 @@
+{
+  "name": "node-cloudflare-realip",
+  "version": "1.0.0",
+  "description": "Securely restore original visitor IPs when behind Cloudflare — middleware for Express, Fastify and raw http servers with IP range validation.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "ranges.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "docs"
+  ],
+  "scripts": {
+    "test": "node test/test.js",
+    "example": "node example.js",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammerNomad/node-cloudflare-realip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ProgrammerNomad/node-cloudflare-realip/issues"
+  },
+  "homepage": "https://github.com/ProgrammerNomad/node-cloudflare-realip#readme",
+  "keywords": [
+    "cloudflare",
+    "realip",
+    "real-ip",
+    "express",
+    "fastify",
+    "middleware",
+    "proxy",
+    "reverse-proxy",
+    "cf-connecting-ip",
+    "visitor-ip",
+    "security",
+    "ip-validation",
+    "node",
+    "nodejs"
+  ],
+  "author": "ProgrammerNomad",
+  "license": "MIT",
+  "dependencies": {
+    "range_check": "^0.0.4"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
